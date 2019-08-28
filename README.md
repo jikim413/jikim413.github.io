@@ -1,8 +1,11 @@
 # Jung In Kim
 
 Assistant Research Professor 
+
 Department of Statistics 
+
 Department of Nutritional Sciences
+
 Penn State University
 
 

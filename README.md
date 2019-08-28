@@ -2,9 +2,7 @@
 
 Assistant Research Professor 
 
-Department of Statistics 
-
-Department of Nutritional Sciences
+Department of Statistics & Nutritional Sciences 
 
 Penn State University
 

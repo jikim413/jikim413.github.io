@@ -27,3 +27,4 @@ Pennsylvania State University
 
 University Park, PA 16802 
 
+email: jikim@psu.edu

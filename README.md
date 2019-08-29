@@ -8,7 +8,7 @@ Penn State University
 
 <br>
 
-Welcome to my personal website. Prior to join PSU, I worked as a Postdoctoral Visiting Fellow at the National Institute of Environmental Health Sciences (NIEHS) and a Biostatistician at the University of North Carolina, Chapel Hill. I earned a PhD in Biostatistics from the of North Carolina, Chapel Hill.
+Welcome to my personal website. Prior to join PSU, I worked as a Postdoctoral Visiting Fellow at the National Institute of Environmental Health Sciences (NIEHS) and a Biostatistician at the University of North Carolina, Chapel Hill. I earned a PhD in Biostatistics from the of University North Carolina, Chapel Hill.
 
 <br>
 

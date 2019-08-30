@@ -26,3 +26,4 @@ Pennsylvania State University
 University Park, PA 16802 
 
 email: jikim@psu.edu
+|Colin Riley|cqr5347|<https://github.com/cqr5347/Repo1/settings>|

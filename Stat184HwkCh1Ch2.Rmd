@@ -1,0 +1,125 @@
+---
+title: "Solution: Homework 1"
+author: "Data Computing Chapters 1 & 2"
+date: "STAT 184"
+output: 
+  html_document:
+    fig_height: 3
+    fig_width: 5
+---
+
+# Assigned Exercises
+
+- DC Ch 1 Exercises (on paper): 1.1, 1.2, 1.4, 1.5 
+- DC Ch 2 Exercises (on same paper): 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.8, 2.9  
+
+
+# Grading
+
+Homework was scored as follows: 
+
+- 4 points for completion (attempting all exercises)
+- 3 exercises were randomly selected and graded (2 pts each)
+    - Problem 1.1
+    - Problem 1.4
+    - Problem 2.3
+
+Note: Students were permitted to complete this assignment on paper (without RMarkdown)
+
+# Chapter 1 Exercises
+
+### Problem 1.1
+
+a. Taffy: 3. value of a variable for a particular case 
+#. year: 2. Quantitivative variable
+#. sex: 1. Categorical variable
+#. name: 1. Categorical variable
+#. count: 2. Quantitivative variable
+
+
+### Problem 1.2
+
+Some of the flaws you might observe include:
+
+* values of `president` variable are not all in the same form.  Lincoln's name is in the form "last, first" while others aren't.
+
+* the `in office` variable contains two numbers (with sloppy puntuation between them).  Either of the following would be an appropriate imrpvement:
+    * split `in office` into two quantitative variables, perhaps `start year` and `end year`
+    * change case in the data set from "president" to "president in a year" so `in office` could be replaced with a generic variable `year` with values such as {1861, 1862, 1863, ...1791, 1792, ...}
+    
+* `number of states` is not shown as a number in Lincoln's case.  All values should be "the same kind of thing."  The cleanest solution would likely adopt cases as "president in a year" above so that we can show how many states there were for each year and avoid the ambiguity during Lincoln's presidency.
+
+### Problem 1.4
+
+1. The variables in each table are as follows:
+    * Data Table A: {Year, Algeria, Brazil, Columbia}
+    * Data Table B: {Country, Y2000, Y2001}
+    * Data Table C: {Country, Year, Value}
+
+2. The cases for each table are as follows:
+    * Data Table A: A year
+    * Data Table B: A country
+    * Data Table C: A country in a year
+
+
+### Problem 1.5
+
+Each case is an airport.  There are seven (7) variables: 
+
+* faa (categorical)
+* name (categorical)
+* lat (quantitative/numerical)
+* lon (quantitative/numerical)
+* alt (quantitative/numerical)
+* tz (quantitative/numerical)
+* dst (categorical)
+
+
+# Chapter 2 Exercises
+
+### Problem 2.2
+
+Which of these kinds of names should be wrapped with quotation marks when used in R?
+
+1. function name: No
+2. file name: Yes
+3. the name of an argument in a named argument: No
+4. object name: No
+
+### Problem 2.3
+
+The meaning of "CPS" from the documentation for the CPS85  data table is: "Current Population Survey"
+
+
+### Problem 2.4
+
+Original Statment: 
+```
+help(NHANES, package <- "NHANES")
+```
+
+Corrected Statement:
+```
+help("NHANES", package = "NHANES")
+```
+```
+help("NHANES", package = "NHANES")
+```
+
+Note: the example from the reading suggests the quotes around "NHANES", though the help function works without the quotes in this case.  The bigger problem is the incorrect use of an assignment operator within a named argument.  Named arguments should always include an equal sign.
+
+
+### Problem 2.5
+
+1. `require()`
+2. `search()`
+
+
+### Problem 2.8
+
+a. (3) Improper syntax for function argument.
+#. (1) No assignment operator.
+#. (4) Invalid object name.
+#. (2) Unmatched quotes in charater string.
+#. (5) No mistake.
+

@@ -27,4 +27,8 @@ University Park, PA 16802
 
 email: jikim@psu.edu
 
-[Stat184HwkCh1Ch2](Stat184HwkCh1Ch2.html)
+[Stat184HwkCh1Ch2.Rmd](Stat184HwkCh1Ch2.Rmd)
+
+[Stat184HwkCh1Ch2.html](Stat184HwkCh1Ch2.html)
+
+[covid](owid-covid-data.csv)
